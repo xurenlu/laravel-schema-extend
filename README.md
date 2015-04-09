@@ -17,7 +17,7 @@ laravel-schema-extend
 在 composer.json 文件中申明依赖：
 
 ```json
-"wind/laravel-schema-extend": "1.*"
+"wind/laravel-schema-extend": "dev-master"
 ```
 
 在 `/app/config/app.php` 中替换“别名”
