@@ -24,7 +24,7 @@ laravel-schema-extend
 'aliases' => array(
     ...
     // 'Schema' => 'Illuminate\Support\Facades\Schema',
-    'Schema'    => 'FiveSay\LaravelSchemaExtend\Facade',
+    'Schema'    => 'wind\LaravelSchemaExtend\Facade',
 ),
 ```
 
