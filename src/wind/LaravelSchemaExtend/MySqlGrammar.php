@@ -43,14 +43,7 @@ class MySqlGrammar extends \Illuminate\Database\Schema\Grammars\MySqlGrammar
      */
     public function compileCreate(Blueprint $blueprint, Fluent $command, Connection $connection)
     {
-        $columns = implode(', ', $this->getColumns($blueprint));
-
-        $sql = 'create table '.$this->wrapTable($blueprint)." ($columns)";
-
-        // Once we have the primary SQL, we can add the encoding option to the SQL for
-        // the table.  Then, we can check if a storage engine has been supplied for
-        // the table. If so, we will add the engine declaration to the SQL query.
-        $sql = $this->compileCreateEncoding($sql, $connection);
+        $sql = parent::compileCreate($blueprint, $command, $connection);
 
         # 表注释支持
         if (isset($blueprint->comment))
