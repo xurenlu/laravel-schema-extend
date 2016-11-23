@@ -1,5 +1,5 @@
 {
-    "name": "wind/laravel-schema-extend",
+    "name": "glz/laravel-schema-extend",
     "description": "support MySQL 'column comment' and 'table comment'.",
     "keywords": ["laravel", "schema", "mysql", "comment"],
     "license": "MIT",
