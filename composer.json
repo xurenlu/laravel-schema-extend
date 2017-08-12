@@ -1,12 +1,13 @@
 {
     "name": "glz/laravel-schema-extend",
+    "version":"1.0.0",
     "description": "support MySQL 'column comment' and 'table comment'.",
     "keywords": ["laravel", "schema", "mysql", "comment"],
     "license": "MIT",
     "authors": [
         {
-            "name": "FiveSay",
-            "email": "bcw.5@foxmail.com"
+            "name": "renlu",
+            "email": "xurenlu@glz8.com"
         }
     ],
     "require": {
